@@ -1,5 +1,5 @@
 # prometheus-graffana
-steps for installing prometheus on server
+steps for installing prometheus on server/instances
 
 pre-requisites:
 
@@ -43,4 +43,7 @@ add the prometheus as a data source by giving your prometheus-url:9090 and save 
 
 then import dashboard of node-exporter 
 
+add the following contents in alertmanager.yml to recieve gmail notifications
+
+![image](https://github.com/user-attachments/assets/629f5b24-aa96-4bec-ae79-294b28cbbfdb)
 
